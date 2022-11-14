@@ -516,7 +516,7 @@ img {
 .hero {
   padding: 86px 0 100px 0;
   background-color: #333b41;
-  background-image: url(../../assets/images/bg-last.jpg);
+  background-image: url(./../assets/images/bg-last.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
