@@ -1,0 +1,50 @@
+.nav {
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 58px;
+    list-style: none;
+    font-weight: 500;
+    line-height: 140%;
+  }
+
+  &__link {
+    margin: 0;
+    padding: 0;
+    color: $color-white;
+    text-decoration: none;
+    transition: $default-transition;
+
+    &:hover {
+      color: $color-orange;
+    }
+
+    &--active {
+      @extend .header__link;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        height: 2px;
+        background-color: $color-orange;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+.footer {
+  .nav {
+    &__link {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+    }
+  }
+}
