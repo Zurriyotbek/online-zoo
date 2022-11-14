@@ -1,0 +1,55 @@
+.default__btn {
+  padding: 16px 0;
+  width: 298px;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  color: $color-white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: #e47209;
+  }
+  &:active {
+    background: $color-green;
+  }
+  &:disabled {
+    background: #828282;
+    cursor: not-allowed;
+  }
+
+  &--round {
+    @extend .default__btn;
+    border-radius: 25px;
+  }
+}
+
+.arrow__btn {
+  width: 62px;
+  height: 62px;
+  border: none;
+  background-color: $color-orange;
+  border-radius: 50%;
+  background-image: url(../../assets/icons/arrow-right.svg);
+  background-size: 20px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    background-color: $color-green;
+  }
+
+  &--left {
+    @extend .arrow__btn;
+    transform: rotate(180deg);
+  }
+}

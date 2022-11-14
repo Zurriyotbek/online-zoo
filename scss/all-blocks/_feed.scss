@@ -1,0 +1,153 @@
+.feed {
+  padding: 69px 0 100px;
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  opacity: 0.9;
+
+  &__content {
+    padding: 41px 0 59px 99px;
+    background-color: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #fe9013;
+  }
+
+  &__subtitle {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: $color-black-blue;
+  }
+
+  & > strong {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: $color-black-blue;
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
+    max-width: 863px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: $color-black-blue;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid #fe9013;
+    }
+  }
+
+  &__steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & > h3 {
+      margin: 0;
+      margin-bottom: 40px;
+      padding: 0;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 130%;
+      color: $color-black-blue;
+      text-align: center;
+    }
+
+    &__wrapper {
+      margin-bottom: 60px;
+      display: flex;
+      align-items: center;
+      gap: 130px;
+    }
+
+    &__card {
+      max-width: 168px;
+      &__img {
+        margin-bottom: 30px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 168px;
+        height: 168px;
+        object-fit: cover;
+        background-color: $color-white;
+        border: 1px solid $color-orange;
+        border-radius: 5px;
+
+        &::after {
+          content: "";
+          display: inline-block;
+          position: absolute;
+          top: 50%;
+          right: -135px;
+          transform: translateY(-50%) translateX(-50%);
+          width: 69px;
+          height: 35.08px;
+          background-image: url(../../assets/icons/steps-arrow.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+        }
+      }
+
+      &__text {
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: $color-black-blue;
+      }
+
+      &:last-child {
+        .feed__steps__card__img {
+          &::after {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+}
