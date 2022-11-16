@@ -427,7 +427,7 @@ img {
   border: none;
   background-color: #f9804b;
   border-radius: 50%;
-  background-image: url(../../assets/icons/arrow-right.svg);
+  background-image: url(./../assets/icons/arrow-right.svg);
   background-size: 20px 10px;
   background-repeat: no-repeat;
   background-position: center;
@@ -563,7 +563,7 @@ img {
 
 .backstage {
   padding: 140px 0 90px;
-  background-image: url(../../assets/images/flower_foto1.png);
+  background-image: url(./../assets/images/flower_foto1.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 15px;
@@ -621,7 +621,7 @@ img {
 
 .animals {
   padding: 90px 0 100px;
-  background-image: url(../../assets/images/palm_foto.png), url(../../assets/images/strelitzia1.png);
+  background-image: url(./../assets/images/palm_foto.png), url(./../assets/images/strelitzia1.png);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, bottom right;
 }
@@ -842,7 +842,7 @@ img {
   transform: translateY(-50%) translateX(-50%);
   width: 69px;
   height: 35.08px;
-  background-image: url(../../assets/icons/steps-arrow.svg);
+  background-image: url(./../assets/icons/steps-arrow.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
