@@ -21,6 +21,7 @@
     }
 
     input {
+      margin-right: 3.5px;
       padding: 10px;
       width: 228px;
       height: 42px;
@@ -69,7 +70,7 @@
 
   &__bottom {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: flex-end;
 
     &__text {
@@ -97,6 +98,7 @@
 }
 
 .footer__form {
+  padding-right: 5px;
   input:focus:invalid + button {
     border: 1px solid $color-red;
     color: $color-red;
@@ -106,6 +108,7 @@
 ///// social media links
 .social__list {
   margin: 0;
+  margin-right: 288px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -141,4 +144,8 @@
     align-items: center;
     justify-content: center;
   }
+}
+
+.footer__nav {
+  margin-right: 165px;
 }

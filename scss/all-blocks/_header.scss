@@ -1,6 +1,5 @@
 .header {
   background-color: $color-black;
-  color: $color-white;
   padding: 14px 0;
 
   &__container {
@@ -11,6 +10,8 @@
     margin-right: 63px;
     display: inline-block;
     transition: $default-transition;
+    max-width: 82px;
+    max-height: 52px;
 
     &:hover {
       opacity: 0.8;
@@ -33,7 +34,6 @@
   &__link {
     margin: 0;
     padding: 0;
-    color: $color-white;
     text-decoration: none;
     transition: $default-transition;
 
@@ -58,4 +58,8 @@
       }
     }
   }
+}
+
+.nav__link--active {
+  color: $color-orange !important;
 }
