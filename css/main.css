@@ -389,7 +389,8 @@ img {
   max-width: 1180px;
 }
 
-.default__btn, .default__btn--round {
+.default__btn,
+.default__btn--round {
   padding: 16px 0;
   width: 298px;
   font-weight: 500;
@@ -404,15 +405,18 @@ img {
   text-decoration: none;
 }
 
-.default__btn:hover, .default__btn--round:hover {
+.default__btn:hover,
+.default__btn--round:hover {
   background: #e47209;
 }
 
-.default__btn:active, .default__btn--round:active {
+.default__btn:active,
+.default__btn--round:active {
   background: #4b9200;
 }
 
-.default__btn:disabled, .default__btn--round:disabled {
+.default__btn:disabled,
+.default__btn--round:disabled {
   background: #828282;
   cursor: not-allowed;
 }
@@ -421,7 +425,8 @@ img {
   border-radius: 25px;
 }
 
-.arrow__btn, .arrow__btn--left {
+.arrow__btn,
+.arrow__btn--left {
   width: 62px;
   height: 62px;
   border: none;
@@ -434,11 +439,13 @@ img {
   cursor: pointer;
 }
 
-.arrow__btn:hover, .arrow__btn--left:hover {
+.arrow__btn:hover,
+.arrow__btn--left:hover {
   opacity: 0.8;
 }
 
-.arrow__btn:active, .arrow__btn--left:active {
+.arrow__btn:active,
+.arrow__btn--left:active {
   background-color: #4b9200;
 }
 
@@ -461,6 +468,8 @@ img {
   margin-right: 63px;
   display: inline-block;
   transition: all 0.25s;
+  max-width: 82px;
+  max-height: 52px;
 }
 
 .header__logo:hover {
@@ -481,7 +490,9 @@ img {
   line-height: 140%;
 }
 
-.header__link, .header__link--active, .nav__link--active {
+.header__link,
+.header__link--active,
+.nav__link--active {
   margin: 0;
   padding: 0;
   color: #fff;
@@ -489,7 +500,9 @@ img {
   transition: all 0.25s;
 }
 
-.header__link:hover, .header__link--active:hover, .nav__link--active:hover {
+.header__link:hover,
+.header__link--active:hover,
+.nav__link--active:hover {
   color: #f9804b;
 }
 
@@ -621,7 +634,8 @@ img {
 
 .animals {
   padding: 90px 0 100px;
-  background-image: url(./../assets/images/palm_foto.png), url(./../assets/images/strelitzia1.png);
+  background-image: url(./../assets/images/palm_foto.png),
+    url(./../assets/images/strelitzia1.png);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, bottom right;
 }
@@ -732,7 +746,28 @@ img {
 
 .feed {
   padding: 69px 0 100px;
-  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #febdab 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%);
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
   opacity: 0.9;
 }
 
@@ -897,7 +932,13 @@ img {
   padding: 0;
   max-width: 268px;
   padding: 2px;
-  background: linear-gradient(#f1f3f2, rgba(254, 189, 171, 0.74), rgba(243, 169, 248, 0.66), #e0d8f0, #eaf7fe);
+  background: linear-gradient(
+    #f1f3f2,
+    rgba(254, 189, 171, 0.74),
+    rgba(243, 169, 248, 0.66),
+    #e0d8f0,
+    #eaf7fe
+  );
   border-radius: 20px;
   overflow: hidden;
 }
@@ -969,7 +1010,14 @@ img {
   width: 600px;
   height: 8px;
   border-radius: 5px;
-  background: linear-gradient(rgba(254, 189, 171, 0.74), rgba(243, 169, 248, 0.66), #e0d8f0, #eaf7fe, #eaf7fe, rgba(254, 189, 171, 0.74));
+  background: linear-gradient(
+    rgba(254, 189, 171, 0.74),
+    rgba(243, 169, 248, 0.66),
+    #e0d8f0,
+    #eaf7fe,
+    #eaf7fe,
+    rgba(254, 189, 171, 0.74)
+  );
 }
 
 .testimonials__progress__bar {
