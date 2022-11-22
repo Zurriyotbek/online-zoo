@@ -18,7 +18,7 @@
       <h1 class="visually-hidden">PetStory Online</h1>
       <div class="container header__container">
         <span class="header__logo">
-          <a href="index.html">
+          <a href="../main/index.html">
             <img src="../../assets/images/header-logo.svg" alt="a site logo" />
           </a>
         </span>
@@ -127,7 +127,7 @@
 
             <form
               class="donation-feed__form"
-              action="./index.html"
+              action="https://echo.htmlacademy.ru/"
               method="post">
               <label class="donation-feed__form__amount">
                 <input
@@ -135,6 +135,7 @@
                   required
                   placeholder="Another amount"
                   min="0"
+                  name="amount"
                   maxlength="3"
                   aria-label="another amount" />
                 <span>$</span>
@@ -181,10 +182,14 @@
           <a class="footer__logo" href="../main/index.html">
             <img src="../../assets/images/header-logo.svg" alt="a logo" />
           </a>
-          <form class="footer__form" action="" method="post">
+          <form
+            class="footer__form"
+            action="https://echo.htmlacademy.ru/"
+            method="post">
             <h3>Subscribe to our news</h3>
             <input
               type="email"
+              name="email"
               placeholder="Enter your email"
               required
               aria-label="enter your email" />
@@ -290,7 +295,7 @@
           <nav class="nav footer__nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a class="nav__link" href="./index.html">About</a>
+                <a class="nav__link" href="../main/index.html">About</a>
               </li>
               <li class="nav__item">
                 <a class="nav__link" href="#">Map</a>
