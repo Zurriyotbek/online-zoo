@@ -186,6 +186,7 @@
         border-radius: 2px;
         outline: none;
         color: #929699;
+        background-color: transparent;
 
         &::-webkit-outer-spin-button,
         &::-webkit-inner-spin-button {
@@ -228,8 +229,10 @@
         margin-right: 10px;
         outline: $color-orange;
         border: $color-orange;
+        background-color: transparent;
         width: 16px;
         height: 16px;
+        visibility: hidden;
 
         &::after {
           content: "";
@@ -239,7 +242,7 @@
           top: 0px;
           left: 0px;
           position: relative;
-          background-color: rgba(255, 255, 255, 0.52);
+          background-color: transparent;
           display: inline-block;
           visibility: visible;
           border: 1px solid $color-orange-text;

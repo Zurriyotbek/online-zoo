@@ -1390,6 +1390,7 @@ img {
   border-radius: 2px;
   outline: none;
   color: #929699;
+  background-color: transparent;
 }
 
 .donation-feed__form__amount input::-webkit-outer-spin-button, .donation-feed__form__amount input::-webkit-inner-spin-button {
@@ -1433,8 +1434,10 @@ img {
   margin-right: 10px;
   outline: #f9804b;
   border: #f9804b;
+  background-color: transparent;
   width: 16px;
   height: 16px;
+  visibility: hidden;
 }
 
 .donation-feed__form__radio input::after {
@@ -1445,7 +1448,7 @@ img {
   top: 0px;
   left: 0px;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.52);
+  background-color: transparent;
   display: inline-block;
   visibility: visible;
   border: 1px solid #fe9013;
