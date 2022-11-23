@@ -209,6 +209,25 @@
         color: #929699;
         font-size: 20px;
       }
+
+      &--invalid {
+        input {
+          border: 1px solid red !important;
+          color: red !important;
+
+          &::placeholder {
+            color: red !important;
+          }
+
+          &::after {
+            color: red !important;
+          }
+        }
+
+        & > span {
+          color: red !important;
+        }
+      }
     }
 
     &__radio {
@@ -255,7 +274,7 @@
           top: 0;
           left: 0;
           position: relative;
-          background-color: #ffa500;
+          background-color: $color-green;
           content: "";
           display: inline-block;
           visibility: visible;
