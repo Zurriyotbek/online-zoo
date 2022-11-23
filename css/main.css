@@ -1414,6 +1414,23 @@ img {
   font-size: 20px;
 }
 
+.donation-feed__form__amount--invalid input {
+  border: 1px solid red !important;
+  color: red !important;
+}
+
+.donation-feed__form__amount--invalid input::placeholder {
+  color: red !important;
+}
+
+.donation-feed__form__amount--invalid input::after {
+  color: red !important;
+}
+
+.donation-feed__form__amount--invalid > span {
+  color: red !important;
+}
+
 .donation-feed__form__radio {
   margin-bottom: 38px;
   padding-right: 10px;
@@ -1461,7 +1478,7 @@ img {
   top: 0;
   left: 0;
   position: relative;
-  background-color: #ffa500;
+  background-color: #4b9200;
   content: "";
   display: inline-block;
   visibility: visible;

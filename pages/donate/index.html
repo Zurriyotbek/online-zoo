@@ -131,12 +131,13 @@
               method="post">
               <label class="donation-feed__form__amount">
                 <input
+                  id="amount-input"
                   type="number"
                   required
                   placeholder="Another amount"
                   min="0"
                   name="amount"
-                  maxlength="3"
+                  maxlength="4"
                   aria-label="another amount" />
                 <span>$</span>
               </label>
@@ -317,5 +318,8 @@
       </div>
     </footer>
     <!-- Footer section end -->
+
+    <!-- Javascript -->
+    <script src="./script.js"></script>
   </body>
 </html>
